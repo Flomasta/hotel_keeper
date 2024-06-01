@@ -2,3 +2,4 @@
 Чтобы IDE не ругалась на неиспользуемые импорты noqa (NO Quality Assurance)
 """
 from app.core.database import Base  # noqa
+from app.models.hotels import Hotels  # noqa
