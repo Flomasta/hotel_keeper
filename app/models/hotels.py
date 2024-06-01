@@ -3,7 +3,7 @@ from sqlalchemy import Column, Integer, String, JSON
 from app.core.database import Base
 
 
-class Hotels:
+class Hotels(Base):
     __tablename__ = 'hotel'
     id = Column(Integer, primary_key=True)
     name = Column(String, nullable=False)
